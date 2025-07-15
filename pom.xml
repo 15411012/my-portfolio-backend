@@ -57,6 +57,13 @@
 		    <version>1.18.32</version> <!-- Use latest version -->
 		    <scope>provided</scope>
 		</dependency>
+		
+		<!-- runtime only -->
+		<dependency>
+		    <groupId>org.postgresql</groupId>
+		    <artifactId>postgresql</artifactId>
+		    <scope>runtime</scope>
+		</dependency>
 	</dependencies>
 
 	<build>
