@@ -64,6 +64,11 @@
 		    <artifactId>postgresql</artifactId>
 		    <scope>runtime</scope>
 		</dependency>
+		<!-- Dialect jar required since Hibernate 6 -->
+		<dependency>
+		    <groupId>org.hibernate.orm</groupId>
+		    <artifactId>hibernate-community-dialects</artifactId>
+		</dependency>
 	</dependencies>
 
 	<build>
