@@ -15,7 +15,7 @@ public class WebConfig {
                 registry.addMapping("/**")
                     .allowedOrigins(
                         "http://localhost:3000",
-                        "https://my-portfolio-react-gray-ten.vercel.app"
+                        "https://narendra-budaniya.vercel.app"
                     )
                     .allowedMethods("*")
                     .allowedHeaders("*")
