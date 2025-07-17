@@ -14,11 +14,12 @@ public class WebConfig {
             public void addCorsMappings(CorsRegistry registry) {
                 registry.addMapping("/**")
                     .allowedOrigins(
-                        "http://localhost:3000", 
-                        "https://your-vercel-frontend.vercel.app"
+                        "http://localhost:3000",
+                        "https://my-portfolio-react-gray-ten.vercel.app"
                     )
-                    .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")
-                    .allowedHeaders("*");
+                    .allowedMethods("*")
+                    .allowedHeaders("*")
+                    .allowCredentials(true);
             }
         };
     }
